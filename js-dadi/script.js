@@ -13,3 +13,20 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 2-INSERIRE IL RILSTATO IN UN IF, COSI DA STABILIRE IL VINCITORE DEL GIOCO
 3-STAMPARE IL RISULTATO 
 */
+
+let NunberPc = Math.floor(Math.random() * 6);
+let NumberPippo = Math.floor(Math.random() * 6);
+
+console.log(NunberPc);
+console.log(NumberPippo);
+
+if (NunberPc > NumberPippo) {
+    console.log("Il Pc vince");
+} else if (NunberPc < NumberPippo) {
+    console.log("Pippo vince");
+} else {
+    console.log("Vincono entrambi");
+} 
+    
+
+
